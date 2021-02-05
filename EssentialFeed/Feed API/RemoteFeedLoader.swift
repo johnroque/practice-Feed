@@ -38,8 +38,8 @@ public final class RemoteFeedLoader {
     public func load(completion: @escaping (Result) -> Void) {
         client.get(from: url) { (result) in
             switch result {
-            case .success(let data, _):
-                if let root = try? JSONDecoder().decode(Root.self, from: data) {
+            case .success(let data, let httpResponse):
+                if let root = try? JSONDecoder().decode(Root.self, from: data), httpResponse.statusCode == 200 {
                     completion(.success(root.items))
                 } else {
                     completion(.failure(.invalidData))
