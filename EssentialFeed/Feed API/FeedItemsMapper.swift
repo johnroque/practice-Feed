@@ -23,13 +23,6 @@ internal final class FeedItemMapper {
         public let location: String?
         public let image: URL
         
-        public init(id: UUID, description: String?, location: String?, image: URL) {
-            self.id = id
-            self.description = description
-            self.location = location
-            self.image = image
-        }
-        
         var item: FeedItem {
             return FeedItem(id: id,
                             description: description,
