@@ -40,6 +40,7 @@
 		4AF57CF225DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF57CF125DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift */; };
 		4AF57CF825DB7AB500BBA5C5 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF57CF725DB7AB500BBA5C5 /* FeedStoreSpy.swift */; };
 		4AFACA2F25EE27AE00A74111 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFACA2E25EE27AE00A74111 /* CoreDataFeedStoreTests.swift */; };
+		4AFACA3425EE297800A74111 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFACA3325EE297800A74111 /* CoreDataFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		4AF57CF125DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		4AF57CF725DB7AB500BBA5C5 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
 		4AFACA2E25EE27AE00A74111 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
+		4AFACA3325EE297800A74111 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				4A2E5F5425DA931300C3127F /* LocalFeedImage.swift */,
 				4ADB45E825E23C410072A4CB /* FeedCachePolicy.swift */,
 				4AC90E3525E6800900B1975B /* CodableFeedStore.swift */,
+				4AFACA3325EE297800A74111 /* CoreDataFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				4A647AC525CE0CDB00D44C0B /* HTTPClient.swift in Sources */,
 				4A75A1F325CAC751002D1AE9 /* FeedImage.swift in Sources */,
 				4A7D5AE225D30B1A0079D894 /* URLSessionHTTPClient.swift in Sources */,
+				4AFACA3425EE297800A74111 /* CoreDataFeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
