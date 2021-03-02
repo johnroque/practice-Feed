@@ -39,6 +39,7 @@
 		4ADB45E925E23C410072A4CB /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB45E825E23C410072A4CB /* FeedCachePolicy.swift */; };
 		4AF57CF225DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF57CF125DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift */; };
 		4AF57CF825DB7AB500BBA5C5 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF57CF725DB7AB500BBA5C5 /* FeedStoreSpy.swift */; };
+		4AFACA2F25EE27AE00A74111 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFACA2E25EE27AE00A74111 /* CoreDataFeedStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		4ADB45E825E23C410072A4CB /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		4AF57CF125DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		4AF57CF725DB7AB500BBA5C5 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
+		4AFACA2E25EE27AE00A74111 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				4ACFC24325E819EB007310D3 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */,
 				4ACFC24825E81A1B007310D3 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */,
 				4ACFC24D25E81A44007310D3 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */,
+				4AFACA2E25EE27AE00A74111 /* CoreDataFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				4AF57CF225DB771500BBA5C5 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				4ACFC23A25E818E3007310D3 /* FeedStoreSpecs.swift in Sources */,
 				4A7D5ADC25D2F41A0079D894 /* XCTTestCase+MemoryLeakTrackingHelper.swift in Sources */,
+				4AFACA2F25EE27AE00A74111 /* CoreDataFeedStoreTests.swift in Sources */,
 				4ACFC23F25E81981007310D3 /* XCTestCase+FeedStoreSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
