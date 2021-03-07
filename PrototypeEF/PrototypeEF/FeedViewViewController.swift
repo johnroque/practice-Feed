@@ -7,6 +7,12 @@
 
 import UIKit
 
+struct FeedImageViewModel {
+    let description: String?
+    let location: String?
+    let imageName: String
+}
+
 final class FeedViewViewController: UITableViewController {
 
     override func viewDidLoad() {
