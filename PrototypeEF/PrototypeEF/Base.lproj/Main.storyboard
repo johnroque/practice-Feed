@@ -26,7 +26,7 @@
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="611" id="blx-yU-neR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="611" id="blx-yU-neR" customClass="FeedImageCell" customModule="PrototypeEF" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="414" height="611"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="blx-yU-neR" id="zqh-Uq-KjJ">
@@ -106,6 +106,13 @@
                                         <constraint firstItem="gDs-5a-d7d" firstAttribute="trailing" secondItem="zqh-Uq-KjJ" secondAttribute="trailingMargin" id="xsM-K5-aDU"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="NuY-Cf-Gdi" id="BHv-Es-p5Z"/>
+                                    <outlet property="feedImageContainer" destination="gnH-pK-ZDX" id="88t-LJ-UVZ"/>
+                                    <outlet property="feedImageView" destination="OHo-MX-XYZ" id="uBd-AY-nyY"/>
+                                    <outlet property="locationContainer" destination="NcQ-PM-ZnC" id="gpc-t2-6IN"/>
+                                    <outlet property="locationLabel" destination="Nsj-sq-aXx" id="uAg-GA-DlV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
