@@ -76,6 +76,9 @@
                                                             <state key="normal" title="↻">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="5bB-pw-rug" eventType="touchUpInside" id="jLb-Ax-fK2"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,6 +120,14 @@
                                         <constraint firstItem="Mfc-41-2uN" firstAttribute="trailing" secondItem="9Se-5k-DqL" secondAttribute="trailingMargin" id="wQz-fg-Ark"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="bTj-nS-hRi" id="LWq-E0-VUE"/>
+                                    <outlet property="feedImageContainer" destination="YKt-To-DNz" id="zTx-Jt-vSq"/>
+                                    <outlet property="feedImageRetryButton" destination="3dC-iL-L8k" id="nxj-Si-oOj"/>
+                                    <outlet property="feedImageView" destination="rGD-gq-F3B" id="iUc-jo-L73"/>
+                                    <outlet property="locationContainer" destination="vRH-W8-cZm" id="BwG-ue-mLM"/>
+                                    <outlet property="locationLabel" destination="BiI-gS-AMh" id="dg9-Xf-x0q"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
