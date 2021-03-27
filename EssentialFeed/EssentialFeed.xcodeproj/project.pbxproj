@@ -20,8 +20,8 @@
 		4A316AC72608DC4C00B2D879 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A316AC62608DC4C00B2D879 /* FeedImagePresenter.swift */; };
 		4A316ACF2608E35900B2D879 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A316ACE2608E35900B2D879 /* FeedViewModel.swift */; };
 		4A316AD72608E39100B2D879 /* FeedLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A316AD62608E39100B2D879 /* FeedLoadingViewModel.swift */; };
-		4A36C6AE260EE3DF006EC0FD /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A36C6AD260EE3DF006EC0FD /* Feed.strings */; };
 		4A36C6B6260EF726006EC0FD /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36C6B5260EF726006EC0FD /* FeedViewControllerTests+Localization.swift */; };
+		4A36C6C9260F1C34006EC0FD /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A36C6CB260F1C34006EC0FD /* Feed.strings */; };
 		4A36DB9A25FD605C00A11FD4 /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36DB9925FD605C00A11FD4 /* FeedUIComposer.swift */; };
 		4A36DBAB25FE6A6500A11FD4 /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36DBAA25FE6A6500A11FD4 /* FeedImageViewModel.swift */; };
 		4A3DD13B25DD079E00B85C1C /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DD13A25DD079E00B85C1C /* ValidateFeedCacheUseCaseTests.swift */; };
@@ -130,8 +130,8 @@
 		4A316AC62608DC4C00B2D879 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 		4A316ACE2608E35900B2D879 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		4A316AD62608E39100B2D879 /* FeedLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoadingViewModel.swift; sourceTree = "<group>"; };
-		4A36C6AD260EE3DF006EC0FD /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
 		4A36C6B5260EF726006EC0FD /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
+		4A36C6CA260F1C34006EC0FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		4A36DB9925FD605C00A11FD4 /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
 		4A36DBAA25FE6A6500A11FD4 /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
 		4A3DD13A25DD079E00B85C1C /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -316,7 +316,7 @@
 				4A316AC62608DC4C00B2D879 /* FeedImagePresenter.swift */,
 				4A316ACE2608E35900B2D879 /* FeedViewModel.swift */,
 				4A316AD62608E39100B2D879 /* FeedLoadingViewModel.swift */,
-				4A36C6AD260EE3DF006EC0FD /* Feed.strings */,
+				4A36C6CB260F1C34006EC0FD /* Feed.strings */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -734,7 +734,7 @@
 			files = (
 				4AF894682609BA20006FE600 /* Feed.storyboard in Resources */,
 				4AF894702609BA7F006FE600 /* Feed.xcassets in Resources */,
-				4A36C6AE260EE3DF006EC0FD /* Feed.strings in Resources */,
+				4A36C6C9260F1C34006EC0FD /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,6 +887,17 @@
 			targetProxy = 4AFACA5C25EE439E00A74111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A36C6CB260F1C34006EC0FD /* Feed.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A36C6CA260F1C34006EC0FD /* en */,
+			);
+			name = Feed.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A75A1E825CAC70D002D1AE9 /* Debug */ = {
