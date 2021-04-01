@@ -5,8 +5,8 @@
 //  Created by John Roque Jorillo on 3/28/21.
 //
 
-import Foundation
 import UIKit
+import EssentialFeed
 
 final class WeakRefVirtualProxy<T: AnyObject> {
     private weak var object: T?
