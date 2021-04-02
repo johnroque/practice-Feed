@@ -6,10 +6,12 @@
 //
 
 import XCTest
+import EssentialFeed
 
 struct FeedImageViewModel {
     let description: String?
     let location: String?
+    let image: Any?
     let isLoading: Bool
     let shouldRetry: Bool
 
@@ -28,15 +30,41 @@ final class FeedImagePresenter {
     init(view: FeedImageView) {
         self.view = view
     }
+    
+    func didStartLoadingImageData(for model: FeedImage) {
+        view.display(FeedImageViewModel(
+                        description: model.description,
+                        location: model.location,
+                        image: nil,
+                        isLoading: true,
+                        shouldRetry: false))
+    }
 }
 
 class FeedImagePresenterTests: XCTestCase {
 
-    func test_init_doesNotMessageToView() {
+    func test_init_doesNotSendMessageToView() {
         let view = ViewSpy()
         
         XCTAssertTrue(view.messages.isEmpty, "Expected no message to view")
     }
+    
+    func test_didStartLoadingImageData_displaysLoadingImage() {
+        let (sut, view) = makeSUT()
+        let image = uniqueImage()
+        
+        sut.didStartLoadingImageData(for: image)
+
+        let message = view.messages.first
+        XCTAssertEqual(view.messages.count, 1)
+        XCTAssertEqual(message?.description, image.description)
+        XCTAssertEqual(message?.location, image.location)
+        XCTAssertEqual(message?.isLoading, true)
+        XCTAssertEqual(message?.shouldRetry, false)
+        XCTAssertNil(message?.image)
+    }
+    
+    // MARK: - Helpers
     
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedImagePresenter, view: ViewSpy) {
         let view = ViewSpy()
@@ -47,7 +75,7 @@ class FeedImagePresenterTests: XCTestCase {
     }
     
     private class ViewSpy: FeedImageView {
-        private(set) var messages: [Any] = []
+        private(set) var messages: [FeedImageViewModel] = []
         
         func display(_ model: FeedImageViewModel) {
             messages.append(model)
