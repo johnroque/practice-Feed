@@ -1,8 +1,8 @@
 //
 //  FeedImageDataLoader.swift
-//  EssentialFeediOS
+//  EssentialFeed
 //
-//  Created by John Roque Jorillo on 3/13/21.
+//  Created by John Roque Jorillo on 4/2/21.
 //
 
 import Foundation
