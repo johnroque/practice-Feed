@@ -193,10 +193,6 @@ class URLSessionHTTPClientTests: XCTestCase {
         return HTTPURLResponse(url: anyURL(), statusCode: 200, httpVersion: nil, headerFields: nil)!
     }
     
-    private func anyData() -> Data {
-        return Data("any data".utf8)
-    }
-    
     private func resultValuesFor(_ values: (data: Data?, response: URLResponse?, error: Error?), file: StaticString = #file, line: UInt = #line) -> (data: Data, response: HTTPURLResponse)? {
 //        URLProtocolStub.stub(data: data, response: response, error: error)
 //        let sut = makeSUT(file: file, line: line)
