@@ -49,6 +49,7 @@
 		4ABF6CE0262299990068B5CB /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABF6CE1262299990068B5CB /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABF6CF6262347FA0068B5CB /* RemoteWithLocalFallbackFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedLoaderTests.swift; sourceTree = "<group>"; };
+		4ABF6D02262367A80068B5CB /* EssentialAppTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EssentialAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		4AE135ED2622960D008AB60D /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE135F02622960D008AB60D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE135F22622960D008AB60D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +132,7 @@
 			children = (
 				4AE1360926229611008AB60D /* Info.plist */,
 				4ABF6CF6262347FA0068B5CB /* RemoteWithLocalFallbackFeedLoaderTests.swift */,
+				4ABF6D02262367A80068B5CB /* EssentialAppTests-Bridging-Header.h */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
