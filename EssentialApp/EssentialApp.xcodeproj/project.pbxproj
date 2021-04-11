@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A045D0126237AE8009ABB86 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A045D0026237AE8009ABB86 /* FeedLoaderWithFallbackComposite.swift */; };
 		4ABF6CE2262299990068B5CB /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF6CE0262299990068B5CB /* EssentialFeed.framework */; };
 		4ABF6CE3262299990068B5CB /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF6CE0262299990068B5CB /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4ABF6CE4262299990068B5CB /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF6CE1262299990068B5CB /* EssentialFeediOS.framework */; };
@@ -46,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A045D0026237AE8009ABB86 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		4ABF6CE0262299990068B5CB /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABF6CE1262299990068B5CB /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABF6CF6262347FA0068B5CB /* RemoteWithLocalFallbackFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWithLocalFallbackFeedLoaderTests.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				4AE135F926229611008AB60D /* Assets.xcassets */,
 				4AE135FB26229611008AB60D /* LaunchScreen.storyboard */,
 				4AE135FE26229611008AB60D /* Info.plist */,
+				4A045D0026237AE8009ABB86 /* FeedLoaderWithFallbackComposite.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				4AE135F52622960D008AB60D /* ViewController.swift in Sources */,
 				4AE135F12622960D008AB60D /* AppDelegate.swift in Sources */,
+				4A045D0126237AE8009ABB86 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				4AE135F32622960D008AB60D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
